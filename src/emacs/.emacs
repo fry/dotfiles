@@ -5,11 +5,13 @@
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 )
 
-;; (require 'evil)
-;; (evil-mode 1)
+; enable vim mode
+(require 'evil)
+(evil-mode 1)
 
-(load-file (let ((coding-system-for-read 'utf-8))
-                (shell-command-to-string "agda-mode locate")))
+; try loading agda-mode if available
+(let (agda (shell-command-to-string "ASDF=`agda-mode locate 2> /dev/null`; if test $ASDF; then e\|
+cho '$ASDF'; fi")) (when agda (load-file (let ((coding-system-for-read 'utf-8)) agda))))
 
 (define-key haskell-mode-map (kbd "C-x C-s") 'haskell-mode-save-buffer)
 (custom-set-variables
