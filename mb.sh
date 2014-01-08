@@ -10,3 +10,5 @@ $LN $PWD/src/emacs/.emacs.d ~/.emacs.d
 $LN $PWD/src/vim/.vimrc ~/.vimrc
 $LN $PWD/src/vim/.vim ~/.vim
 
+$LN $PWD/src/.tmux.conf ~/.tmux.conf
+
