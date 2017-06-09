@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+
+    "python.linting.enabled": false,
+    "window.zoomLevel": 1,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "terminal.external.osxExec": "iTerm.app"
+}
