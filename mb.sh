@@ -20,3 +20,7 @@ $LN $PWD/src/zsh/.inputrc ~/.inputrc
 $LN $PWD/src/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 $LN $PWD/src/vscode/snippets/ ~/Library/Application\ Support/Code/User/snippets
 
+# kitty
+mkdir -p ~/.config/kitty
+$LN $PWD/src/kitty/kitty.conf ~/.config/kitty/kitty.conf
+
