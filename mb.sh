@@ -24,3 +24,5 @@ $LN $PWD/src/vscode/snippets/ ~/Library/Application\ Support/Code/User/snippets
 mkdir -p ~/.config/kitty
 $LN $PWD/src/kitty/kitty.conf ~/.config/kitty/kitty.conf
 
+# git
+$LN $PWD/src/git/.gitconfig ~/.gitconfig
