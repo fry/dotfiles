@@ -11,10 +11,12 @@ $LN $PWD/src/vim/.vimrc ~/.vimrc
 $LN $PWD/src/vim/.vim ~/.vim
 
 # tmu
-$LN $PWD/src/.tmux.conf ~/.tmux.conf
+$LN $PWD/src/tmux.conf ~/.tmux.conf
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm ; true
 
 # zsh
-$LN $PWD/src/zsh/.inputrc ~/.inputrc
+$LN $PWD/src/zsh/zshrc ~/.zshrc
+$LN $PWD/src/zsh/inputrc ~/.inputrc
 
 # vscode
 $LN $PWD/src/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
