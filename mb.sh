@@ -11,7 +11,7 @@ $LN $PWD/src/vim/.vimrc ~/.vimrc
 $LN $PWD/src/vim/.vim ~/.vim
 
 # tmu
-$LN $PWD/src/tmux.conf ~/.tmux.conf
+$LN $PWD/src/tmux/tmux.conf ~/.tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm ; true
 
 # zsh
